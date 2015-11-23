@@ -1,0 +1,55 @@
+[root]
+name = "nrf51822-zinc"
+version = "0.1.0"
+dependencies = [
+ "core 1.0.0 (git+https://github.com/hackndev/rust-libcore)",
+ "macro_zinc 0.1.0",
+ "zinc 0.1.0",
+]
+
+[[package]]
+name = "core"
+version = "1.0.0"
+source = "git+https://github.com/hackndev/rust-libcore#d9dc4f94163a78efb4da176db6bd4ba82b2ac93e"
+
+[[package]]
+name = "ioreg"
+version = "0.1.0"
+dependencies = [
+ "syntaxext_lint 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "macro_zinc"
+version = "0.1.0"
+
+[[package]]
+name = "rlibc"
+version = "0.1.3"
+source = "git+https://github.com/lizardo/rlibc?branch=zinc#64fc8b49db4bf6032d30ffdd148e4024f7ede358"
+dependencies = [
+ "core 1.0.0 (git+https://github.com/hackndev/rust-libcore)",
+]
+
+[[package]]
+name = "syntaxext_lint"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "volatile_cell"
+version = "1.0.0"
+dependencies = [
+ "core 1.0.0 (git+https://github.com/hackndev/rust-libcore)",
+]
+
+[[package]]
+name = "zinc"
+version = "0.1.0"
+dependencies = [
+ "core 1.0.0 (git+https://github.com/hackndev/rust-libcore)",
+ "ioreg 0.1.0",
+ "rlibc 0.1.3 (git+https://github.com/lizardo/rlibc?branch=zinc)",
+ "volatile_cell 1.0.0",
+]
+

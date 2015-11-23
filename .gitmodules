@@ -1,0 +1,4 @@
+[submodule "zinc"]
+	path = zinc
+	url = https://github.com/lizardo/zinc
+	branch = nrf51822

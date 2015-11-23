@@ -1,0 +1,16 @@
+[package]
+name = "nrf51822-zinc"
+version = "0.1.0"
+authors = ["Anderson Lizardo <anderson.lizardo@gmail.com>"]
+
+[features]
+mcu_nrf51822 = ["zinc/mcu_nrf51822"]
+
+[dependencies.zinc]
+path = "zinc"
+
+[dependencies.macro_zinc]
+path = "zinc/macro_zinc"
+
+[dependencies.core]
+git = "https://github.com/hackndev/rust-libcore"
