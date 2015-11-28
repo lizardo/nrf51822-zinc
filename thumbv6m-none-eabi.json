@@ -2,7 +2,7 @@
     "llvm-target": "thumbv6m-none-eabi",
     "target-endian": "little",
     "target-pointer-width": "32",
-    "os": "unknown",
+    "os": "none",
     "env": "eabi",
     "vendor": "unknown",
     "arch": "arm",
