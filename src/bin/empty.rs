@@ -12,5 +12,7 @@ fn run() {
     power::ram_power_on();
     init_data();
     init_stack();
+
+    // Add your code here
     unsafe { asm!("nop") }
 }
