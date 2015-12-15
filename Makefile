@@ -1,7 +1,4 @@
-# Version currently required to build zinc:
-# rustc 1.5.0-nightly (81b3b27cf 2015-10-11)
-CARGO = multirust run nightly-2015-10-12 cargo
-
+CARGO = cargo
 OBJCOPY = arm-none-eabi-objcopy
 TARGET = thumbv6m-none-eabi
 BUILD = release
